@@ -16,8 +16,8 @@ header,
   }
 }
 
-.top-nav-collapse {
-  background-color: #563e91 !important;
+.top-nav-collapse, .page-footer {
+    background-color: #563e91 !important;
 }
 
 .navbar:not(.top-nav-collapse) {
