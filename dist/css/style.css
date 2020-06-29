@@ -1,8 +1,9 @@
 /* Required for full background image */
+
 html,
 body,
 header,
-.view {
+#intro-section {
   height: 100%;
 }
 
@@ -10,7 +11,7 @@ header,
   html,
   body,
   header,
-  .view {
+  #intro-section {
     height: 100vh;
   }
 }
@@ -30,19 +31,18 @@ header,
 }
 
 .rgba-gradient {
-  background: -moz-linear-gradient(
-    45deg,
-    rgba(213, 15, 61, 0.6),
-    rgba(13, 17, 198, 0.69) 100%
-  );
+  background: rgba(35, 7, 77, 0.6);
+  /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    45deg,
-    rgba(213, 15, 61, 0.6),
-    rgba(13, 17, 198, 0.69) 100%
+    to right,
+    rgba(204, 83, 51, 0.6),
+    rgba(35, 7, 77, 0.6)
   );
+  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to 45deg,
-    rgba(213, 15, 61, 0.6),
-    rgba(13, 17, 198, 0.69) 100%
+    to right,
+    rgba(204, 83, 51, 0.6),
+    rgba(35, 7, 77, 0.6)
   );
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
